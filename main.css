@@ -746,6 +746,12 @@ textarea {
     gap: 1rem;
   }
 
+    .contact-video {
+    padding-top: 40%;
+    height: 30vh;
+    width: 100%;
+  }
+
   .contact-form-content {
     padding: 1.5rem;
   }
