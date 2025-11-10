@@ -755,13 +755,6 @@ textarea {
   }
 }
 
-@media (max-width: 768px) {
-  .contact-video {
-
-    object-position: 7% center; /* Push even more to the right */
-  }
-}
-
 /* ===================== FOOTER Responsive layout ================= */
 @media (max-width: 768px) {
   .footer {
