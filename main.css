@@ -189,6 +189,15 @@ body {
   margin-bottom: 0.8rem;
 }
 
+.about-text a {text-decoration: none;
+  color: #d4a017;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+.about-text a:hover {
+  color: #52c0d9;
+}
+
 /* ============================================ TEAM SECTION ================================================== */
 /* ===== TEAM HERO IMAGE ===== */
 .team-hero {
@@ -273,6 +282,7 @@ body {
   font-weight: bold;
   color: #d4a017;
   margin-bottom: 0.8rem;
+  text-align: center;
 }
 
 .team-member p {
@@ -336,7 +346,7 @@ body {
 .contact-form-content {
   max-width: 900px;
   margin: 0 auto;
-  background-color: #f4f4f4;
+  background-color: #dddddd;
   padding: 2.5rem;
   border-radius: 12px;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 1.2);
@@ -414,6 +424,7 @@ textarea {
   cursor: pointer;
   align-self: center;
   transition: all 0.3s ease;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 1.2);
 }
 
 .btn-submit:hover {
