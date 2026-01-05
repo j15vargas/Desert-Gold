@@ -256,6 +256,7 @@ body {
   padding: 2rem;
   flex: 1 1 300px; /* flexible width */
   max-width: 350px;
+  max-height: 350px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
@@ -612,6 +613,12 @@ textarea {
   }
 
   /* Hero text smaller */
+  .hero-video {
+    height: 110%;
+    object-fit: cover;
+    object-position: center top;
+  }
+
   .hero-content h2 {
     font-size: 1.8rem;
   }
